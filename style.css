@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(
+        to right,
+        rgba(125, 200, 237, 0.866),
+        rgb(236, 168, 179)
+    );
+    min-height: 100vh;
+}
+
+* {
+    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 60px;
+}
+
+.nav links{
+    list-style:none;
+    display:flex;
+    gap:30px;
+    display: column;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:black;
+}
