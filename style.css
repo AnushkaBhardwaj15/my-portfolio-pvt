@@ -22,11 +22,12 @@ body{
     padding:20px 60px;
 }
 
-.nav links{
+.nav-links{
     list-style:none;
     display:flex;
     gap:30px;
-    display: column;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-links a{
